@@ -57,7 +57,8 @@ public class MainActivity extends AppCompatActivity
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1 & resultCode == RESULT_OK) {
+        if (requestCode == 1 & resultCode == RESULT_OK)
+        {
             Bundle extras = data.getExtras();
             String nowy = (String) extras.get("wpis");
             target.add(nowy);
