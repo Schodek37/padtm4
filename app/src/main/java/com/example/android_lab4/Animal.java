@@ -33,7 +33,7 @@ public class Animal implements Serializable
     public String getGatunek(){return gatunek;}
     public String getKolor(){return kolor;}
     public float getWielkosc(){return wielkosc;}
-    public int get_id(){return _id;};
+    public int get_id(){return _id;}
     public void set_id(int _id){this._id = _id;}
 
 
