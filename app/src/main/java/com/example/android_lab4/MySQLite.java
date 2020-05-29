@@ -52,7 +52,7 @@ public class MySQLite extends SQLiteOpenHelper
     public void usun(String _id)
     {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete("animals", " id= ?", new String[] { _id } );
+        db.delete("animals", " _id= ?", new String[] { _id } );
         db.close();
     }
 
